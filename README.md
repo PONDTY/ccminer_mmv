@@ -1,5 +1,7 @@
 # ccminer
 
+Original [ccminer](https://github.com/monkins1010/ccminer/tree/ARM)
+
 Based on Christian Buchner's &amp; Christian H.'s CUDA project, no more active on github since 2014.
 
 Check the [README.txt](README.txt) for the additions
