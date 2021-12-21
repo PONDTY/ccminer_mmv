@@ -3676,22 +3676,21 @@ int main(int argc, char *argv[])
 	// get opt_quiet early
 	parse_single_opt('q', argc, argv);
 
-	system("clear");
-	usleep(1000*1000);
-	printf("   #####  ##   ## ##    ## ##    ## ## ##    ##       #######  ###### ##   ##\n");
-	usleep(1000*1000);
-	printf("   ##  ## ##   ## ##    ## ###  ### ## ###   ##       ##    ## ##     ##   ##\n");
-	usleep(1000*1000);
-	printf("   #####  ####### ##    ## ## ## ## ## ## #  ##  ###  ##    ## ###### ##   ##\n");
-	usleep(1000*1000);
-	printf("   ##     ##   ## ##    ## ##    ## ## ##  # ##       ##    ## ##      ## ## \n");
-	usleep(1000*1000);
-	printf("   ##     ##   ##  ######  ##    ## ## ##   ###       #######  ######   ###  \n");
-	usleep(1000*1000);
+	// system("clear");
+	// usleep(1000*1000);
+	// printf("   #####  ##   ## ##    ## ##    ## ## ##    ##       #######  ###### ##   ##\n");
+	// usleep(1000*1000);
+	// printf("   ##  ## ##   ## ##    ## ###  ### ## ###   ##       ##    ## ##     ##   ##\n");
+	// usleep(1000*1000);
+	// printf("   #####  ####### ##    ## ## ## ## ## ## #  ##  ###  ##    ## ###### ##   ##\n");
+	// usleep(1000*1000);
+	// printf("   ##     ##   ## ##    ## ##    ## ## ##  # ##       ##    ## ##      ## ## \n");
+	// usleep(1000*1000);
+	// printf("   ##     ##   ##  ######  ##    ## ## ##   ###       #######  ######   ###  \n");
+	// usleep(1000*1000);
 	
-	printf("\n     [ Mobile Mining CPU:" PACKAGE_VERSION ", By: Phumin-dev, Original: Ccminer ]\n\n");
-
-		printf("Located at: " PACKAGE_URL " \n\n");
+	// printf("\n     [ Mobile Mining CPU:" PACKAGE_VERSION ", By: Phumin-dev, Original: Ccminer ]\n\n");
+	// 	printf("Located at: " PACKAGE_URL " \n\n");
 
 	rpc_user = strdup("");
 	rpc_pass = strdup("");
